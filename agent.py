@@ -57,7 +57,7 @@ def facts_func(input_text):
         "manvith is garu",
         "Girish is playBoy"
     }
-    return random.choice(facts_list)
+    return random.choice(list((facts_list)))
 
 
 facts_tool = Tool(
