@@ -6,7 +6,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.chains.conversation.memory import ConversationBufferWindowMemory
 import random
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCapENCU_mQlSragb6Bw9FetLUpJskZeUE"
+os.environ["GOOGLE_API_KEY"] = "API_KEY"
 
 model = ChatGoogleGenerativeAI(model="gemini-1.5-flash-002")
 
